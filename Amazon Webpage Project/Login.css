@@ -1,0 +1,46 @@
+.Maincontainer{
+    height: 400px;
+    width: 300px;
+    background-color: burlywood;
+}
+a,button{
+    cursor: pointer;
+}
+body{
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Maincontainer{
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    color: blue;
+}
+#createbutton{
+    background-color: blueviolet;
+
+}
+.input-container{
+    width: 200px;
+    height: 250px;
+    display: flex;
+   flex-direction: column;
+   margin: auto;
+   margin-top: 50px;
+}
+#LogInbutton:active{
+    color: aqua;
+    background-color: crimson;
+}
+input[type="text"],
+input[type="Password"]{
+    height: auto;
+}
